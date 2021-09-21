@@ -5,7 +5,8 @@
 body {
 font-size: 30px;
 font-family: 'Zen Loop', cursive;
-background-image: linear-gradient(to bottom left, rgb(31,109,213), rgb(156,187,246));
+background-image: url('bk.jpeg');
+background-size:cover;
 background-attachment: fixed;
 }
 
