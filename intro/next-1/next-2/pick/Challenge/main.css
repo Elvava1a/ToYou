@@ -10,24 +10,33 @@ body {
 }
 
 img {
-  width: 350px;
-  height: 300px;
+  width: 300px;
+  height: 250px;
 }
+
+p{
+  font-size: 20px;
+  color: white;
+  margin-left: 200px;
+  margin-top: -10px;
+}
+
 .star{
   width: 100px;
   height: 100px;
   margin-left: 50px;
   margin-top: 2px;
 }
+
 .moon{
   width: 200px;
   height:200px;
   margin-left: 50px;
   margin-top: 2px;
 }
+
 .flex-box{
   display: flex;
-  height: 20%;
   flex-direction: row;
   justify-content: space-around;
   padding: 10px 10px 10px 10px;
@@ -49,12 +58,19 @@ img {
 
 .flip-box {
   background-color: transparent;
-  width: 350px;
-  height: 300px;
+  width: 300px;
+  height: 250px;
   border: 0 solid;
   perspective: 1000px;
 }
 
+/* .flex-box1{
+  display: flex;
+  flex-direction: row;
+  gap:20px 20px;
+  justify-content: space-around;
+  padding: inherit;
+} */
 .flex-box2 {
   display: flex;
   flex-direction: row;
@@ -107,7 +123,8 @@ img {
   color: #baa9a9;
   text-align: center;
   border-radius: 6px;
-  padding: 10px;
+  padding: 5px 0;
+
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
@@ -167,12 +184,12 @@ img {
 
   20% {
     transform: translateX(20vw);
-    opacity: 0;
+    opacity: 0.5;
   }
 
   40% {
     transform: translateX(60vw);
-    opacity: .5;
+    opacity: 0;
   }
 
   60% {
@@ -182,11 +199,11 @@ img {
 
   80% {
     transform: translateX(140vw);
-    opacity: 0.5;
+    opacity: 0;
   }
 
   100% {
     transform: translateX(200vw);
-    opacity: 0;
+    opacity: 0.5;
   }
 }
