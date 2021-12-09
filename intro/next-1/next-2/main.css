@@ -23,7 +23,12 @@ img {
   width: 100px;
   height: 100px;
 }
-
+.leave {
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
+  margin-top: 2px;
+}
 .intro{
   width: 150px;
   height: 150px;

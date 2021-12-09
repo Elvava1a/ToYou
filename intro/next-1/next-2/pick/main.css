@@ -18,7 +18,10 @@ img {
   /* z-index: -10; */
   /* animation: test 10s infinite; */
 }
-
+.intro{
+  width: 150px;
+  height: 150px;
+}
 .h {
   font-size: 30px;
   color: #999999;

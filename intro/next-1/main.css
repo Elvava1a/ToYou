@@ -44,11 +44,11 @@ p{
 
 .flex-box1 {
   display: flex;
-  width: 900px;
+  width: 1700px;
   height: 500px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 9em;
+  margin-top: 8em;
   background-color: rgba(31, 109, 213, 0);
   border-radius: 50px;
   position: center;
@@ -57,7 +57,7 @@ p{
   animation: test 10s infinite;
 }
 
-.flex-box3 {
+/* .flex-box3 {
   display: flex;
   width: 30px;
   height: 20px;
@@ -68,7 +68,7 @@ p{
   justify-content: center;
   padding: 5px 10px 10px;
   position: center;
-  text-align: center;
+  text-align: center; */
 }
 
 /* .cloud {
