@@ -15,15 +15,21 @@ body {
 }
 
 img {
-  margin-left: 50px;
-  margin-top: 50px;
+
 }
 
 .star {
   width: 100px;
   height: 100px;
   margin-left: 50px;
-  margin-top: 20px;
+  margin-top: 1px;
+}
+
+.flower {
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
+  margin-top: 2px;
 }
 
 .leave {
@@ -46,7 +52,7 @@ p{
   display: flex;
   width: 1700px;
   height: 500px;
-  margin-left: auto;
+  margin-left: 80px;
   margin-right: auto;
   margin-top: 8em;
   background-color: rgba(31, 109, 213, 0);
@@ -165,7 +171,7 @@ p{
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 250px;
-  background-color: rgb(67,91,252, 0.5);
+  background-color: rgb(67,91,252, 0.85);
   color: #baa9a9;
   text-align: center;
   border-radius: 6px;
